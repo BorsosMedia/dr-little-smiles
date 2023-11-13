@@ -1,14 +1,13 @@
-import { fontFamily } from "tailwindcss/defaultTheme"
-
+import { fontFamily } from "tailwindcss/defaultTheme";
 
 /** @type {import('tailwindcss').Config} */
-export const darkMode = ["class"]
+export const darkMode = ["class"];
 export const content = [
-  './pages/**/*.{js,jsx}',
-  './components/**/*.{js,jsx}',
-  './app/**/*.{js,jsx}',
-  './src/**/*.{js,jsx}',
-]
+  "./pages/**/*.{js,jsx}",
+  "./components/**/*.{js,jsx}",
+  "./app/**/*.{js,jsx}",
+  "./src/**/*.{js,jsx}",
+];
 export const theme = {
   container: {
     center: true,
@@ -22,14 +21,14 @@ export const theme = {
       sans: ["var(--font-sans)", ...fontFamily.sans],
     },
     colors: {
-      black: '#444444',
-      'dark-blue': '#2D59E2',
-      'light-blue': '#45A2FF',
-      'light-grey': '#F1F8FF',
-      'dark-grey': '#E8F3FF',
-      'text-grey': '#95A4B5',
-      'border-grey': '#D2DAE3',
-      'button-grey': '#5A7788',
+      black: "#444444",
+      "dark-blue": "#2D59E2",
+      "light-blue": "#45A2FF",
+      "light-grey": "#F1F8FF",
+      "dark-grey": "#E8F3FF",
+      "text-grey": "#95A4B5",
+      "border-grey": "#D2DAE3",
+      "button-grey": "#5A7788",
       border: "hsl(var(--border))",
       input: "hsl(var(--input))",
       ring: "hsl(var(--ring))",
@@ -84,5 +83,5 @@ export const theme = {
       "accordion-up": "accordion-up 0.2s ease-out",
     },
   },
-}
-export const plugins = [require("tailwindcss-animate")]
+};
+export const plugins = [require("tailwindcss-animate")];

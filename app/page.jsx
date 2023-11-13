@@ -7,13 +7,13 @@ import Reviews from "../components/Reviews";
 
 export default function Home() {
   return (
-    <main className='bg-light-grey'>
-      <Hero/>
-      <About/>
-      <Cavities/>
-      <Prevention/>
-      <Factors/>
-      <Reviews/>
+    <main className="bg-light-grey">
+      <Hero />
+      <About />
+      <Cavities />
+      <Prevention />
+      <Factors />
+      <Reviews />
     </main>
-  )
+  );
 }
