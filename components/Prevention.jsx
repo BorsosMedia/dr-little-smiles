@@ -3,7 +3,7 @@ import Image from "next/image"
 const Prevention = () => {
   return(
     <article>
-      <Image src={'/'} alt='Kids smiling' />
+      <Image src={'/'} alt='Kids smiling' width={20} height={20} />
       <section>
         <h2>Prevention Over Treatment</h2>
         <p>Preventing tooth decay in children yields numerous advantages, including the avoidance of discomfort, stress, and expenses, alongside the promotion of good oral habits and overall well-being. Preventative measures spare children from the pain and anxiety associated with dental procedures such as fillings, offering a less invasive and time-efficient alternative.</p>

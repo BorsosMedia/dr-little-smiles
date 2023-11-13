@@ -1,15 +1,17 @@
 import Image from "next/image"
 
-import LearnMoreButton from "./LearnMoreButton"
+import FactorPopup from "./FactorPopup"
 
-const FactorCard = ({image, alt, title, content}) => {
+
+
+const FactorCard = ({image, alt, width, height, title, content, bullets}) => {
 
   return(
     <article>
-      <Image src={image} alt={alt} />
+      <Image src={image} alt={alt} width={width} height={height} />
       <h3>{title}</h3>
       <p>{content}</p>
-      <LearnMoreButton/>
+      <FactorPopup title={title} bullets={bullets}/>
     </article>
   )
 }

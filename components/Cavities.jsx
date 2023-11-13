@@ -10,7 +10,7 @@ const Cavities = () => {
       <p>Nevertheless, our oral cavity and saliva contain components that counteract this acid and combat harmful bacteria. Additionally, minerals and elements found in saliva, along with the inclusion of anti-cavity agents like fluoride in toothpaste, collectively contribute to the restoration of weakened enamel.</p>
       <p>The equilibrium between enamel demineralization (breakdown) and remineralization (re-building) is influenced by our dietary choices, oral hygiene practices, and the quality of our mouth and teeth. An imbalance in this process increases the likelihood of cavities.</p>
       </section>
-      <Image src={'/'} alt='Cavities Diagram'/>
+      <Image src={'/'} alt='Cavities Diagram' width={20} height={20}/>
     </article>
   )
 }
