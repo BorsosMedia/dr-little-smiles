@@ -14,10 +14,10 @@ import {
 const FactorPopup = ({title, bullets}) => {
   return(
     <Dialog>
-      <DialogTrigger asChild><Button variant="outline">Learn More</Button></DialogTrigger>
-       <DialogContent>
+      <DialogTrigger asChild><Button variant="outline" className='rounded-full border-button-grey px-20 text-button-grey'>Learn More</Button></DialogTrigger>
+       <DialogContent className='max-h-[90vh] overflow-y-auto bg-dark-grey text-black'>
         <DialogHeader>
-          <DialogTitle>{title}</DialogTitle>
+          <DialogTitle className='text-light-blue'>{title}</DialogTitle>
         </DialogHeader>
         {bullets?.length > 0 && bullets.map((bullet, index) => {
         return(
@@ -26,7 +26,7 @@ const FactorPopup = ({title, bullets}) => {
       })}
         <DialogFooter className="sm:justify-start">
           <DialogClose asChild>
-            <Button type="button" variant="secondary">
+            <Button variant="outline" className='border border-button-grey text-button-grey'>
               Close
             </Button>
           </DialogClose>

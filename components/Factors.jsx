@@ -28,13 +28,13 @@ const Factors = () => {
   
 
   return(
-    <article>
-      <h2>Prevention Factors</h2>
+    <article className="mx-[10vw] flex flex-col items-center justify-center text-center text-black">
+      <h2 className="font-bold text-light-blue">Prevention Factors</h2>
       <p>GOOD NEWS! Tooth decay is a preventable disease, and this prevention can be achieved by managing the multiple factors that contribute to the formation of cavities: Diet, Bacteria, Host, and Time. It is essential to regulate our dietary choices and eating habits, reduce the presence of harmful bacteria in our mouths, all while maintaining a conducive oral environment and healthy dentition.</p>
-      <section>
-        <FactorCard image={dietCard.image} alt={dietCard.alt} title={dietCard.title} content={dietCard.content} bullets={dietCard.bullets} width={20} height={20}/>
-        <FactorCard image={hygieneCard.image} alt={hygieneCard.alt} title={hygieneCard.title} content={hygieneCard.content} bullets={hygieneCard.bullets} width={20} height={20}/>
-        <FactorCard image={mouthCard.image} alt={mouthCard.alt} title={mouthCard.title} content={mouthCard.content} bullets={mouthCard.bullets} width={20} height={20}/>
+      <section className="flex flex-col gap-10 md:flex-row">
+        <FactorCard image={dietCard.image} alt={dietCard.alt} title={dietCard.title} content={dietCard.content} bullets={dietCard.bullets} width={100} height={100}/>
+        <FactorCard image={hygieneCard.image} alt={hygieneCard.alt} title={hygieneCard.title} content={hygieneCard.content} bullets={hygieneCard.bullets} width={100} height={100}/>
+        <FactorCard image={mouthCard.image} alt={mouthCard.alt} title={mouthCard.title} content={mouthCard.content} bullets={mouthCard.bullets} width={100} height={100}/>
       </section>
     </article>
   )
