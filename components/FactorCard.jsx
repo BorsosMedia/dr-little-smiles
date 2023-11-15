@@ -4,13 +4,20 @@ import FactorPopup from "./FactorPopup";
 
 const FactorCard = ({ image, alt, width, height, title, content, bullets }) => {
   return (
-    <article className="flex h-[450px] w-[340px] flex-col items-center justify-between gap-5 rounded-3xl border border-border-grey bg-white px-5 py-10">
+    <article className="card">
       <Image src={image} alt={alt} width={width} height={height} />
       <div>
-        <h3 className="subheadline-blue">{title}</h3>
-        <p className="text-text-grey">{content}</p>
+        <h3 className="card-title">{title}</h3>
+        <p className="text-sm text-text-grey">{content}</p>
       </div>
-      <FactorPopup title={title} bullets={bullets} />
+      <FactorPopup
+        image={image}
+        alt={alt}
+        width={width}
+        height={height}
+        title={title}
+        bullets={bullets}
+      />
     </article>
   );
 };

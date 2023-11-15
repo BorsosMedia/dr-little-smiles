@@ -1,14 +1,16 @@
 import Image from "next/image";
 
+import diagram from "../public/assets/cavities.png";
+
 const Cavities = () => {
   return (
-    <article>
-      <section>
-        <h2>What are Cavities?</h2>
+    <article className="article-display default-padding gap-32">
+      <section className="paragraphs-display">
+        <h2 className="subheadline blue hidden md:block">What are Cavities?</h2>
         <p>
-          <span>Tooth decay</span>, commonly referred to as cavities, is a
-          chronic disease initiated by acid-producing bacteria, primarily
-          Streptococcus mutans.{" "}
+          <span className="bold">Tooth decay</span>, commonly referred to as
+          cavities, is a chronic disease initiated by acid-producing bacteria,
+          primarily Streptococcus mutans.
         </p>
         <p>
           These bacteria thrive on food particles, particularly those high in
@@ -31,7 +33,8 @@ const Cavities = () => {
           imbalance in this process increases the likelihood of cavities.
         </p>
       </section>
-      <Image src={"/"} alt="Cavities Diagram" width={20} height={20} />
+      <Image src={diagram} alt="Cavities Diagram" className="h-auto w-full" />
+      <h2 className="subheadline blue md:hidden">What are Cavities?</h2>
     </article>
   );
 };

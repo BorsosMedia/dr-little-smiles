@@ -1,11 +1,20 @@
-import { Inter as FontSans } from "next/font/google";
+// eslint-disable-next-line camelcase
+import { Montserrat, DM_Sans } from "next/font/google";
 
 import "../styles/globals.css";
 import Footer from "../components/Footer";
 import { cn } from "../lib/utils";
 
-export const fontSans = FontSans({
+export const montserrat = Montserrat({
   subsets: ["latin"],
+  style: "normal",
+  weight: ["400", "600", "700", "800"],
+});
+
+export const dmSans = DM_Sans({
+  subsets: ["latin"],
+  style: "normal",
+  weight: ["400", "500", "700"],
   variable: "--font-sans",
 });
 
@@ -16,11 +25,15 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" suppressHydrationWarning>
+    <html
+      lang="en"
+      suppressHydrationWarning
+      className="scrollbar-thin scrollbar-track-light-grey scrollbar-thumb-light-blue scrollbar-thumb-rounded-full"
+    >
       <body
         className={cn(
           "min-h-screen bg-background font-sans antialiased",
-          fontSans.variable,
+          dmSans.variable,
         )}
       >
         {children}

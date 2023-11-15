@@ -2,7 +2,7 @@ import FactorCard from "./FactorCard";
 
 const Factors = () => {
   const dietCard = {
-    image: "/assets/apple.svg",
+    image: "/assets/apple.png",
     alt: "Apple",
     title: "Diet & Dietary Habits",
     content:
@@ -16,7 +16,7 @@ const Factors = () => {
   };
 
   const hygieneCard = {
-    image: "/assets/toothbrush.svg",
+    image: "/assets/toothbrush.png",
     alt: "Toothbrush",
     title: "Hygiene Routine & Products",
     content:
@@ -29,7 +29,7 @@ const Factors = () => {
   };
 
   const mouthCard = {
-    image: "/assets/mouth.svg",
+    image: "/assets/mouth.png",
     alt: "Mouth",
     title: "Your Mouth & Teeth",
     content:
@@ -45,17 +45,19 @@ const Factors = () => {
   };
 
   return (
-    <article className="article-display flex flex-col items-center justify-center text-black">
-      <h2 className="subheadline-blue">Prevention Factors</h2>
-      <p>
-        GOOD NEWS! Tooth decay is a preventable disease, and this prevention can
-        be achieved by managing the multiple factors that contribute to the
-        formation of cavities: Diet, Bacteria, Host, and Time. It is essential
-        to regulate our dietary choices and eating habits, reduce the presence
-        of harmful bacteria in our mouths, all while maintaining a conducive
-        oral environment and healthy dentition.
-      </p>
-      <section className="flex flex-col gap-10 md:flex-row">
+    <article className="factors-display">
+      <div className="paragraphs-display">
+        <h2 className="subheadline blue">Prevention Factors</h2>
+        <p>
+          GOOD NEWS! Tooth decay is a preventable disease, and this prevention
+          can be achieved by managing the multiple factors that contribute to
+          the formation of cavities: Diet, Bacteria, Host, and Time. It is
+          essential to regulate our dietary choices and eating habits, reduce
+          the presence of harmful bacteria in our mouths, all while maintaining
+          a conducive oral environment and healthy dentition.
+        </p>
+      </div>
+      <section className="cards-display">
         <FactorCard
           image={dietCard.image}
           alt={dietCard.alt}

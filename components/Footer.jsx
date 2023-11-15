@@ -1,23 +1,36 @@
 import Image from "next/image";
 
+import facebook from "../public/assets/facebook.svg";
+import instagram from "../public/assets/instagram.svg";
+import tiktok from "../public/assets/tiktok.svg";
+import youtube from "../public/assets/youtube.svg";
+
 const Footer = () => {
   return (
-    <footer style={{ backgroundColor: "#000000" }}>
-      <Image
-        src={"/assets/logo-white.svg"}
-        alt="Logo"
-        width={200}
-        height={200}
-      />
-      <section>
-        <Image src={"/"} alt="YouTube" width={20} height={20} />
-        <Image src={"/"} alt="Instagram" width={20} height={20} />
-        <Image src={"/"} alt="TikTok" width={20} height={20} />
+    <footer className="bg-footer">
+      <Image src="/assets/logo-white.svg" alt="Logo" width={200} height={200} />
+      <section className="social-media-display">
+        <a href="#">
+          <Image src={youtube} alt="YouTube" className="icons" />
+        </a>
+        <a href="#">
+          <Image src={instagram} alt="Instagram" className="icons" />
+        </a>
+        <a href="#">
+          <Image src={tiktok} alt="TikTok" className="icons" />
+        </a>
+        <a href="#">
+          <Image src={facebook} alt="Facebook" className="icons" />
+        </a>
       </section>
-      <section>
+      <section className="gap-16">
         <p>
           Design and Development by{" "}
-          <a href="https://www.borsosmedia.com/" target="_blank">
+          <a
+            href="https://www.borsosmedia.com/"
+            target="_blank"
+            className="bold underline"
+          >
             Borsos Media
           </a>
         </p>

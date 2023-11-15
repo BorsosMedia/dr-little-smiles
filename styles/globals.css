@@ -71,18 +71,118 @@
     @apply border-border;
   }
   body {
-    @apply bg-background text-foreground;
+    @apply bg-background text-foreground text-black;
   }
-  .subheadline-blue {
-    @apply font-bold text-light-blue;
+  p {
+    @apply text-base;
   }
-  .subheadline-white {
-    @apply font-bold text-light-white;
+}
+
+@layer utilities {
+  /* TEXT STYLING */
+  .text-effect {
+    @apply w-fit bg-gradient-to-r from-dark-blue to-dark-blue bg-[length:100%_40%] bg-bottom bg-no-repeat px-1 white;
+    text-shadow: 1px 1px #2d59e2;
   }
+
+  .bold {
+    @apply font-bold;
+  }
+
+  .headline {
+    @apply text-6xl bold;
+  }
+
+  .subheadline {
+    @apply text-3xl bold;
+  }
+
+  .blue {
+    @apply text-light-blue;
+  }
+
+  .white {
+    @apply text-white;
+  }
+
+  /* CARDS STYLING */
+  .card {
+    @apply flex-center box-border h-[460px] w-[340px] flex-col gap-24 rounded-3xl border border-border-grey bg-white p-8;
+  }
+
+  .card-title {
+    @apply bold mb-4 text-xl text-light-blue;
+  }
+
   .grey-button {
-    @apply border border-button-grey text-button-grey;
+    @apply rounded-full border border-button-grey px-20 text-button-grey;
   }
+
+  /* DISPLAYS */
   .article-display {
-    @apply mx-[10vw] text-center;
+    @apply flex flex-col-reverse items-center text-center md:grid md:grid-cols-2 md:text-left;
+  }
+
+  .flex-center {
+    @apply flex items-center justify-center;
+  }
+
+  .factors-display {
+    @apply flex-center default-padding flex-col gap-32 text-center;
+  }
+
+  .cards-display {
+    @apply flex-center flex-wrap gap-32;
+  }
+
+  .paragraphs-display {
+    @apply flex flex-col gap-16;
+  }
+
+  .social-media-display {
+    @apply flex-center gap-24;
+  }
+
+  /* SPACING */
+  .default-x-padding {
+    @apply px-[10vw];
+  }
+
+  .default-y-padding {
+    @apply py-[10vh];
+  }
+
+  .default-padding {
+    @apply default-x-padding default-y-padding;
+  }
+
+  .gap-32 {
+    @apply gap-8;
+  }
+
+  .gap-24 {
+    @apply gap-6;
+  }
+
+  .gap-16 {
+    @apply gap-4;
+  }
+
+  /* BACKGROUND IMAGES */
+  .bg-cavities {
+    @apply h-auto w-full bg-cavities-background bg-cover bg-no-repeat p-0 text-center md:text-left text-white md:h-0 md:bg-contain md:py-[14.973958334%];
+  }
+
+  .bg-prevention {
+    @apply h-auto w-full bg-prevention-background bg-cover bg-no-repeat p-0 text-center md:text-left white md:h-0 md:bg-contain md:py-[14.973958334%];
+  }
+
+  .bg-footer {
+    @apply flex-center white h-auto w-full flex-col gap-32 bg-footer-background bg-cover bg-no-repeat py-[5vh] text-center;
+  }
+
+  /* ICONS */
+  .icons {
+    @apply h-6 w-auto transition-all ease-in-out hover:scale-125;
   }
 }
