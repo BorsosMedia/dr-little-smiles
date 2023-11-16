@@ -1,27 +1,13 @@
 import Image from "next/image";
 
-import facebook from "../public/assets/facebook.svg";
-import instagram from "../public/assets/instagram.svg";
-import tiktok from "../public/assets/tiktok.svg";
-import youtube from "../public/assets/youtube.svg";
+import SocialLinks from "./SocialLinks";
 
 const Footer = () => {
   return (
     <footer className="bg-footer">
       <Image src="/assets/logo-white.svg" alt="Logo" width={200} height={200} />
       <section className="social-media-display">
-        <a href="#" target="_blank">
-          <Image src={youtube} alt="YouTube" className="icons" />
-        </a>
-        <a href="https://www.instagram.com/nikthedentist/" target="_blank">
-          <Image src={instagram} alt="Instagram" className="icons" />
-        </a>
-        <a href="https://www.tiktok.com/@nikthedentist" target="_blank">
-          <Image src={tiktok} alt="TikTok" className="icons" />
-        </a>
-        <a href="#" target="_blank">
-          <Image src={facebook} alt="Facebook" className="icons" />
-        </a>
+        <SocialLinks />
       </section>
       <section className="gap-16">
         <p>

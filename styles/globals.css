@@ -123,6 +123,10 @@
     @apply flex flex-col-reverse items-center text-center lg:grid lg:grid-cols-2 lg:text-left;
   }
 
+  .about-display {
+    @apply flex items-end text-center lg:grid lg:grid-cols-4 lg:text-left lg:px-[10vw];
+  }
+
   .prevention-display {
     @apply white flex flex-col-reverse items-stretch text-center xl:grid xl:grid-cols-2;
   }
@@ -173,6 +177,10 @@
   }
 
   /* BACKGROUND IMAGES */
+  .bg-about {
+    @apply w-full bg-about-mobile-bg bg-cover bg-no-repeat white lg:bg-about-bg lg:bg-cover bg-left;
+  }
+
   .bg-cavities {
     @apply h-full bg-light-grey xl:bg-cavities-bg bg-cover bg-no-repeat default-padding xl:pl-[15vw];
   }

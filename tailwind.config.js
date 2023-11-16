@@ -87,8 +87,8 @@ export const theme = {
       "footer-bg": "url('/assets/footer.png')",
       "prevention-bg": "url('/assets/prevention-bg.jpg')",
       "prevention-mobile-bg": "url('/assets/prevention-mobile-bg.jpg')",
-      "video-bg": "url('/assets/video-bg.jpg')",
-      "video-mobile-bg": "url('/assets/video-mobile-bg.jpg')",
+      "about-bg": "url('/assets/about-bg.png')",
+      "about-mobile-bg": "url('/assets/about-mobile-bg.jpg')",
     },
   },
 };
