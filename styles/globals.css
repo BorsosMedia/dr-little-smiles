@@ -174,7 +174,7 @@
 
   /* BACKGROUND IMAGES */
   .bg-cavities {
-    @apply white h-auto w-full bg-cavities-bg bg-cover bg-no-repeat p-0 text-center md:h-0 md:bg-contain md:py-[14.973958334%] lg:text-left;
+    @apply h-full bg-light-grey xl:bg-cavities-bg bg-cover bg-no-repeat default-padding xl:pl-[15vw];
   }
 
   .bg-prevention {

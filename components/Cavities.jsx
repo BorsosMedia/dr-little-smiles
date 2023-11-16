@@ -4,7 +4,7 @@ import diagram from "../public/assets/cavities.png";
 
 const Cavities = () => {
   return (
-    <article className="article-display default-padding gap-32">
+    <article className="article-display bg-cavities gap-32">
       <section className="paragraphs-display">
         <h2 className="subheadline blue hidden lg:block">What are cavities?</h2>
         <p>

@@ -21,7 +21,7 @@ const Prevention = () => {
             associated with dental procedures such as fillings, offering a less
             invasive and time-efficient alternative.
           </p>
-          <p className="">
+          <p>
             Moreover, prevention preserves a child&apos;s natural teeth and
             upholds their alignment and bite integrity. By instilling preventive
             practices at home, children acquire valuable oral hygiene and
