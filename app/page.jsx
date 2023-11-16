@@ -3,7 +3,7 @@ import Cavities from "../components/Cavities";
 import Factors from "../components/Factors";
 import Hero from "../components/Hero";
 import Prevention from "../components/Prevention";
-import Reviews from "../components/Reviews";
+// import Reviews from "../components/Reviews";
 
 export default function Home() {
   return (
@@ -13,7 +13,7 @@ export default function Home() {
       <Cavities />
       <Prevention />
       <Factors />
-      <Reviews />
+      {/* <Reviews /> */}
     </main>
   );
 }
