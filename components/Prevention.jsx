@@ -8,9 +8,9 @@ const Prevention = () => {
       <Image
         src={kids}
         alt="Kids smiling"
-        className="h-auto w-full lg:hidden 2xl:block"
+        className="h-auto w-full md:hidden xl:block"
       />
-      <section className="bg-prevention hidden md:block">
+      <section className="bg-prevention md:hidden xl:block">
         <div className="paragraphs-display h-full place-content-center">
           <h2 className="subheadline">Prevention Over Treatment</h2>
           <p>
@@ -21,7 +21,7 @@ const Prevention = () => {
             associated with dental procedures such as fillings, offering a less
             invasive and time-efficient alternative.
           </p>
-          <p>
+          <p className="">
             Moreover, prevention preserves a child&apos;s natural teeth and
             upholds their alignment and bite integrity. By instilling preventive
             practices at home, children acquire valuable oral hygiene and
@@ -31,11 +31,11 @@ const Prevention = () => {
           </p>
         </div>
       </section>
-      <section className="bg-prevention lg:hidden">
+      <section className="bg-prevention hidden md:block xl:hidden">
         <Image
           src={kids}
           alt="Kids smiling"
-          className="float-left m-6 hidden w-[50%] md:inline"
+          className="float-left m-6 w-[50%]"
         />
         <h2 className="subheadline">Prevention Over Treatment</h2>
         <p className="my-4">
