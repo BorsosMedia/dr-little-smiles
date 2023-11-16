@@ -120,7 +120,11 @@
 
   /* DISPLAYS */
   .article-display {
-    @apply flex flex-col-reverse items-center text-center md:grid md:grid-cols-2 md:text-left;
+    @apply flex flex-col-reverse items-center text-center lg:grid lg:grid-cols-2 lg:text-left;
+  }
+
+  .prevention-display {
+    @apply flex flex-col-reverse items-stretch text-center 2xl:grid 2xl:grid-cols-2 white;
   }
 
   .flex-center {
@@ -170,15 +174,15 @@
 
   /* BACKGROUND IMAGES */
   .bg-cavities {
-    @apply h-auto w-full bg-cavities-background bg-cover bg-no-repeat p-0 text-center md:text-left text-white md:h-0 md:bg-contain md:py-[14.973958334%];
+    @apply h-auto w-full bg-cavities-bg bg-cover bg-no-repeat p-0 text-center lg:text-left white md:h-0 md:bg-contain md:py-[14.973958334%];
   }
 
   .bg-prevention {
-    @apply h-auto w-full bg-prevention-background bg-cover bg-no-repeat p-0 text-center md:text-left white md:h-0 md:bg-contain md:py-[14.973958334%];
+    @apply h-auto w-full bg-prevention-mobile-bg md:bg-prevention-bg bg-cover bg-right bg-no-repeat p-0 py-[10vh] default-x-padding 2xl:py-0 2xl:pl-8 2xl:pr-[10vw] text-center lg:text-left;
   }
 
   .bg-footer {
-    @apply flex-center white h-auto w-full flex-col gap-32 bg-footer-background bg-cover bg-no-repeat py-[5vh] text-center;
+    @apply flex-center white h-auto w-full flex-col gap-32 bg-footer-bg bg-cover bg-no-repeat py-[5vh] text-center;
   }
 
   /* ICONS */

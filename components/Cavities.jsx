@@ -6,7 +6,7 @@ const Cavities = () => {
   return (
     <article className="article-display default-padding gap-32">
       <section className="paragraphs-display">
-        <h2 className="subheadline blue hidden md:block">What are Cavities?</h2>
+        <h2 className="subheadline blue hidden lg:block">What are cavities?</h2>
         <p>
           <span className="bold">Tooth decay</span>, commonly referred to as
           cavities, is a chronic disease initiated by acid-producing bacteria,
@@ -33,8 +33,12 @@ const Cavities = () => {
           imbalance in this process increases the likelihood of cavities.
         </p>
       </section>
-      <Image src={diagram} alt="Cavities Diagram" className="h-auto w-full" />
-      <h2 className="subheadline blue md:hidden">What are Cavities?</h2>
+      <Image
+        src={diagram}
+        alt="Cavities Diagram"
+        className="h-auto w-[20rem] lg:w-full"
+      />
+      <h2 className="subheadline blue lg:hidden">What are cavities?</h2>
     </article>
   );
 };

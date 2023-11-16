@@ -83,9 +83,12 @@ export const theme = {
       "accordion-up": "accordion-up 0.2s ease-out",
     },
     backgroundImage: {
-      "footer-background": "url('/assets/footer.png')",
-      "prevention-background": "url('/assets/prevention-bg.png')",
-      "cavities-background": "url('/assets/cavities-bg.jpg')",
+      "cavities-bg": "url('/assets/cavities-bg.jpg')",
+      "footer-bg": "url('/assets/footer.png')",
+      "prevention-bg": "url('/assets/prevention-bg.jpg')",
+      "prevention-mobile-bg": "url('/assets/prevention-mobile-bg.jpg')",
+      "video-bg": "url('/assets/video-bg.jpg')",
+      "video-mobile-bg": "url('/assets/video-mobile-bg.jpg')",
     },
   },
 };
