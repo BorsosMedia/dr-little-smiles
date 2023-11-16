@@ -81,7 +81,7 @@
 @layer utilities {
   /* TEXT STYLING */
   .text-effect {
-    @apply w-fit bg-gradient-to-r from-dark-blue to-dark-blue bg-[length:100%_40%] bg-bottom bg-no-repeat px-1 white;
+    @apply white w-fit bg-gradient-to-r from-dark-blue to-dark-blue bg-[length:100%_40%] bg-bottom bg-no-repeat px-1;
     text-shadow: 1px 1px #2d59e2;
   }
 
@@ -90,11 +90,11 @@
   }
 
   .headline {
-    @apply text-6xl bold;
+    @apply bold text-6xl;
   }
 
   .subheadline {
-    @apply text-3xl bold;
+    @apply bold text-3xl;
   }
 
   .blue {
@@ -124,7 +124,7 @@
   }
 
   .prevention-display {
-    @apply flex flex-col-reverse items-stretch text-center 2xl:grid 2xl:grid-cols-2 white;
+    @apply white flex flex-col-reverse items-stretch text-center xl:grid xl:grid-cols-2;
   }
 
   .flex-center {
@@ -174,11 +174,11 @@
 
   /* BACKGROUND IMAGES */
   .bg-cavities {
-    @apply h-auto w-full bg-cavities-bg bg-cover bg-no-repeat p-0 text-center lg:text-left white md:h-0 md:bg-contain md:py-[14.973958334%];
+    @apply white h-auto w-full bg-cavities-bg bg-cover bg-no-repeat p-0 text-center md:h-0 md:bg-contain md:py-[14.973958334%] lg:text-left;
   }
 
   .bg-prevention {
-    @apply h-auto w-full bg-prevention-mobile-bg md:bg-prevention-bg bg-cover bg-right bg-no-repeat p-0 py-[10vh] default-x-padding 2xl:py-0 2xl:pl-8 2xl:pr-[10vw] text-center lg:text-left;
+    @apply default-x-padding h-auto w-full bg-prevention-mobile-bg bg-cover bg-right bg-no-repeat p-0 py-[10vh] text-center md:bg-prevention-bg xl:text-left xl:py-0 xl:pl-8 xl:pr-[10vw];
   }
 
   .bg-footer {
