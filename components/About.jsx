@@ -11,7 +11,7 @@ const About = () => {
         <span className="text-effect">Doctor Little Smiles</span>
       </h2>
       <section className="about-display">
-        <div className="col-span-3 flex flex-col gap-16">
+        <div className="col-span-4 flex flex-col gap-16">
           <div className="grid items-center gap-16 lg:col-start-2 lg:grid-cols-3">
             <div className="w-full px-[10vw] lg:col-span-2 lg:col-start-2 lg:px-0">
               <div className="relative pt-[56.25%]">
@@ -29,7 +29,7 @@ const About = () => {
               <SocialLinks />
             </div>
           </div>
-          <div className="flex flex-col gap-16 px-[10vw] lg:px-0">
+          <div className="flex flex-col gap-16 px-[10vw] lg:px-0 lg:pl-[10vw]">
             <p>
               <span className="bold">Dr. Nikhil (Nik) Sharma</span> is a
               dedicated <span className="bold">Pediatric dentist</span> and a
@@ -73,7 +73,7 @@ const About = () => {
         <Image
           src={nikDesktop}
           alt="Nik's Picture"
-          className="hidden w-auto lg:block"
+          className="col-span-2 hidden h-auto w-full lg:block"
         />
       </section>
     </article>

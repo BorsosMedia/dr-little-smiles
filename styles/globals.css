@@ -124,7 +124,7 @@
   }
 
   .about-display {
-    @apply flex items-end text-center lg:grid lg:grid-cols-4 lg:px-[10vw] lg:text-left;
+    @apply flex items-end text-center lg:grid lg:grid-cols-6 lg:text-left;
   }
 
   .prevention-display {
