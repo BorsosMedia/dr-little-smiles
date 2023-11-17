@@ -71,7 +71,7 @@
     @apply border-border;
   }
   body {
-    @apply bg-background text-foreground text-black;
+    @apply bg-background text-black;
   }
   p {
     @apply text-base;
@@ -90,7 +90,7 @@
   }
 
   .headline {
-    @apply bold text-6xl;
+    @apply bold text-xl md:text-3xl lg:text-6xl;
   }
 
   .subheadline {
@@ -124,7 +124,7 @@
   }
 
   .about-display {
-    @apply flex items-end text-center lg:grid lg:grid-cols-4 lg:text-left lg:px-[10vw];
+    @apply flex items-end text-center lg:grid lg:grid-cols-4 lg:px-[10vw] lg:text-left;
   }
 
   .prevention-display {
@@ -177,12 +177,16 @@
   }
 
   /* BACKGROUND IMAGES */
+  .bg-hero {
+    @apply grid h-0 grid-cols-4 bg-hero-mobile-bg bg-cover bg-no-repeat pb-[91.6030534351145%] md:bg-hero-bg md:pb-[52.0833%];
+  }
+
   .bg-about {
-    @apply w-full bg-about-mobile-bg bg-cover bg-no-repeat white lg:bg-about-bg lg:bg-cover bg-left;
+    @apply white w-full bg-about-mobile-bg bg-cover bg-left bg-no-repeat lg:bg-about-bg lg:bg-cover;
   }
 
   .bg-cavities {
-    @apply h-full bg-light-grey xl:bg-cavities-bg bg-cover bg-no-repeat default-padding xl:pl-[15vw];
+    @apply default-padding h-full bg-light-grey bg-cover bg-no-repeat xl:bg-cavities-bg xl:pl-[15vw];
   }
 
   .bg-prevention {

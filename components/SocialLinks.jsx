@@ -20,7 +20,10 @@ const SocialLinks = () => {
       <a href="https://www.tiktok.com/@nikthedentist" target="_blank">
         <Image src={tiktok} alt="TikTok" className="icons" />
       </a>
-      <a href="https://www.facebook.com/nikhilsharma.dmd/" target="_blank">
+      <a
+        href="https://www.facebook.com/profile.php?id=100092191733892"
+        target="_blank"
+      >
         <Image src={facebook} alt="Facebook" className="icons" />
       </a>
     </>
