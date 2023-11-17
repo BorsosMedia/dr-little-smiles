@@ -80,9 +80,14 @@
 
 @layer utilities {
   /* TEXT STYLING */
-  .text-effect {
+  .text-effect-desktop {
     @apply white w-fit bg-gradient-to-r from-dark-blue to-dark-blue bg-[length:100%_40%] bg-bottom bg-no-repeat px-1;
     text-shadow: 4px 4px #2d59e2;
+  }
+
+  .text-effect-mobile {
+    @apply white w-fit bg-gradient-to-r from-dark-blue to-dark-blue bg-[length:100%_40%] bg-bottom bg-no-repeat px-1;
+    text-shadow: 2px 2px #2d59e2;
   }
 
   .bold {
@@ -90,11 +95,11 @@
   }
 
   .headline {
-    @apply bold text-xl md:text-3xl lg:text-6xl 2xl:text-8xl;
+    @apply bold text-3xl lg:text-6xl 2xl:text-7xl;
   }
 
   .subheadline {
-    @apply bold text-3xl 2xl:text-5xl;
+    @apply bold text-3xl 2xl:text-4xl;
   }
 
   .blue {
@@ -124,7 +129,7 @@
   }
 
   .about-display {
-    @apply flex items-end text-center lg:grid lg:grid-cols-6 lg:text-left;
+    @apply flex items-end text-center lg:grid lg:grid-cols-7 lg:text-left;
   }
 
   .prevention-display {
@@ -182,7 +187,7 @@
   }
 
   .bg-about {
-    @apply white w-full bg-about-mobile-bg bg-cover bg-center bg-no-repeat lg:bg-about-bg lg:bg-cover;
+    @apply white w-full bg-about-mobile-bg bg-cover bg-left-top bg-no-repeat lg:bg-about-bg lg:bg-cover;
   }
 
   .bg-cavities {

@@ -8,11 +8,13 @@ const About = () => {
   return (
     <article className="bg-about">
       <h2 className="subheadline py-[5vh] text-center">
-        <span className="text-effect">Doctor Little Smiles</span>
+        <span className="text-effect-mobile md:text-effect-desktop">
+          Doctor Little Smiles
+        </span>
       </h2>
       <section className="about-display">
-        <div className="col-span-4 flex flex-col gap-16">
-          <div className="grid items-center gap-16 lg:col-start-2 lg:grid-cols-3">
+        <div className="col-span-5 flex flex-col gap-16">
+          <div className="grid items-center gap-16 lg:col-start-3 lg:grid-cols-3">
             <div className="w-full px-[10vw] lg:col-span-2 lg:col-start-2 lg:px-0">
               <div className="relative pt-[56.25%]">
                 <iframe
@@ -25,7 +27,7 @@ const About = () => {
               </div>
             </div>
             <div className="lg:social-media-display col-span-2 col-start-2 my-8 hidden">
-              <span>Follow us:</span>
+              <span className="bold text-2xl">Follow us:</span>
               <SocialLinks />
             </div>
           </div>
@@ -60,7 +62,7 @@ const About = () => {
           </div>
           <div className="grid grid-cols-2">
             <div className="grid grid-cols-2 place-content-center place-items-center gap-6 place-self-center pl-[10vw] lg:hidden">
-              <span className="col-span-2">Follow us:</span>
+              <span className="bold col-span-2 text-xl">Follow us:</span>
               <SocialLinks />
             </div>
             <Image

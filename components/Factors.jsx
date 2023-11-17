@@ -48,7 +48,7 @@ const Factors = () => {
     <article className="factors-display">
       <div className="paragraphs-display">
         <h2 className="subheadline blue">Prevention Factors</h2>
-        <p className="default-x-padding">
+        <p className="px-[7.5vw]">
           GOOD NEWS! Tooth decay is a preventable disease, and this prevention
           can be achieved by managing the multiple factors that contribute to
           the formation of cavities: Diet, Bacteria, Host, and Time. It is

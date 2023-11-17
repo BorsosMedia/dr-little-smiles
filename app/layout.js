@@ -14,7 +14,7 @@ export const montserrat = Montserrat({
 export const dmSans = DM_Sans({
   subsets: ["latin"],
   style: "normal",
-  weight: ["400", "500", "700"],
+  weight: "300",
   variable: "--font-sans",
 });
 
