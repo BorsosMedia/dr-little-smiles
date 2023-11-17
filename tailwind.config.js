@@ -19,6 +19,8 @@ export const theme = {
   extend: {
     fontFamily: {
       sans: ["var(--font-sans)", ...fontFamily.sans],
+      montserrat:
+        'url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&display=swap")',
     },
     colors: {
       black: "#444444",

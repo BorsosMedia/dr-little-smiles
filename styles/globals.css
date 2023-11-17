@@ -95,7 +95,7 @@
   }
 
   .headline {
-    @apply bold text-3xl lg:text-6xl 2xl:text-7xl;
+    @apply bold text-3xl lg:text-6xl 2xl:text-7xl font-montserrat;
   }
 
   .subheadline {

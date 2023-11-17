@@ -9,6 +9,7 @@ export const montserrat = Montserrat({
   subsets: ["latin"],
   style: "normal",
   weight: ["400", "600", "700", "800"],
+  variable: "--font-montserrat",
 });
 
 export const dmSans = DM_Sans({
