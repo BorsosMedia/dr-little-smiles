@@ -24,7 +24,7 @@ const About = () => {
                 ></iframe>
               </div>
             </div>
-            <div className="lg:social-media-display col-span-2 col-start-2 hidden">
+            <div className="lg:social-media-display col-span-2 col-start-2 my-8 hidden">
               <span>Follow us:</span>
               <SocialLinks />
             </div>

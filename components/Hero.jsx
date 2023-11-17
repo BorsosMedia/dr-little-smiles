@@ -9,7 +9,9 @@ const Hero = () => {
         <Image src={logo} alt="logo" className="h-24 w-24 lg:h-48 lg:w-48" />
         <h1 className="headline">
           <span className="text-effect">
-            Caring for the Smiles that Matter Most
+            <span className="whitespace-nowrap">Caring for the Smiles</span>
+            <br />
+            <span className="whitespace-nowrap">that Matter Most</span>
           </span>
         </h1>
       </section>
