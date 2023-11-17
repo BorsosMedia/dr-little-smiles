@@ -82,7 +82,7 @@
   /* TEXT STYLING */
   .text-effect {
     @apply white w-fit bg-gradient-to-r from-dark-blue to-dark-blue bg-[length:100%_40%] bg-bottom bg-no-repeat px-1;
-    text-shadow: 1px 1px #2d59e2;
+    text-shadow: 4px 4px #2d59e2;
   }
 
   .bold {
