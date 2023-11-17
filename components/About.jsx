@@ -13,7 +13,17 @@ const About = () => {
       <section className="about-display">
         <div className="col-span-3 flex flex-col gap-16">
           <div className="grid items-center gap-16 lg:col-start-2 lg:grid-cols-3">
-            <video className="w-full px-[10vw] lg:col-span-2 lg:col-start-2 lg:px-0" />
+            <div className="w-full px-[10vw] lg:col-span-2 lg:col-start-2 lg:px-0">
+              <div className="relative pt-[56.25%]">
+                <iframe
+                  src="https://player.vimeo.com/video/885721170?h=2f9a793edf&amp;badge=0&amp;autopause=0&amp;quality_selector=1&amp;player_id=0&amp;app_id=58479"
+                  frameborder="0"
+                  allow="autoplay; fullscreen; picture-in-picture"
+                  title="Nik Intro"
+                  className="absolute left-0 top-0 h-full w-full rounded shadow-2xl drop-shadow-2xl"
+                ></iframe>
+              </div>
+            </div>
             <div className="lg:social-media-display col-span-2 col-start-2 hidden">
               <span>Follow us:</span>
               <SocialLinks />
