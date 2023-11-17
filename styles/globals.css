@@ -74,7 +74,7 @@
     @apply bg-background text-black;
   }
   p {
-    @apply text-base;
+    @apply text-base 2xl:text-xl;
   }
 }
 
@@ -90,11 +90,11 @@
   }
 
   .headline {
-    @apply bold text-xl md:text-3xl lg:text-6xl;
+    @apply bold text-xl md:text-3xl lg:text-6xl 2xl:text-8xl;
   }
 
   .subheadline {
-    @apply bold text-3xl;
+    @apply bold text-3xl 2xl:text-5xl;
   }
 
   .blue {
