@@ -1,4 +1,5 @@
 import Script from "next/script";
+
 import About from "../components/About";
 import Cavities from "../components/Cavities";
 import Factors from "../components/Factors";
