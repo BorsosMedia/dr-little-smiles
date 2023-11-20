@@ -1,5 +1,5 @@
+"use client";
 import Image from "next/image";
-
 import logo from "../public/assets/logo-white.svg";
 
 const Hero = () => {
@@ -43,7 +43,6 @@ const Hero = () => {
                 style={{
                   width: "100%",
                   maxWidth: "400px",
-                  height: "100%",
                   border: "none",
                 }}
                 className="form-iframe"

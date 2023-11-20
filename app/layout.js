@@ -36,6 +36,7 @@ export default function RootLayout({ children }) {
           "min-h-screen bg-background font-sans antialiased",
           dmSans.variable,
         )}
+        suppressHydrationWarning
       >
         {children}
         <Footer />
