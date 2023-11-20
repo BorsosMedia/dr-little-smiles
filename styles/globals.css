@@ -224,6 +224,10 @@
 .newsletter-form {
   display: none;
 }
+
+.form-iframe {
+  height: 99px;
+}
 .form-mobile {
   background-color: #cee7ff;
   padding-top: 2rem;

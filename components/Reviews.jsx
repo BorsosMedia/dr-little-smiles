@@ -3,7 +3,7 @@ import ReviewCard from "./ReviewCard";
 const Reviews = () => {
   return (
     <article className="factors-display bg-white">
-      <h2 className="subheadline blue">What Others Are Saying About Us</h2>
+      <h2 className="subheadline blue">See What Others Are Saying</h2>
       <section className="flex-center flex-wrap gap-32">
         <ReviewCard
           name="John Khoushoo"
