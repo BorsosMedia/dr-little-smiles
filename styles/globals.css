@@ -187,7 +187,7 @@
   }
 
   .bg-about {
-    @apply white w-full bg-about-mobile-bg bg-cover bg-left-top bg-no-repeat lg:bg-about-bg lg:bg-cover;
+    @apply white w-full bg-about-mobile-bg bg-cover bg-right bg-no-repeat lg:bg-about-bg lg:bg-cover;
   }
 
   .bg-cavities {
