@@ -45,6 +45,7 @@ const Hero = () => {
                   maxWidth: "400px",
                   border: "none",
                 }}
+                suppressHydrationWarning
                 className="form-iframe"
                 id="inline-K6DO8k1YbVqtK4L2mPoH"
                 data-layout="{'id':'INLINE'}"
