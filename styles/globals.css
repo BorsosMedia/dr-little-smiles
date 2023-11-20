@@ -226,7 +226,7 @@
 }
 
 .form-iframe {
-  height: 99px;
+  height: 99px !important;
 }
 .form-mobile {
   background-color: #cee7ff;
@@ -237,6 +237,9 @@
   .newsletter-form {
     display: block;
     margin-top: 5rem !important;
+  }
+  .form-iframe {
+    height: 100% !important;
   }
   .form-mobile {
     display: none;
