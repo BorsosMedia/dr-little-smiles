@@ -1,10 +1,11 @@
+import Script from "next/script";
+
 import About from "../components/About";
 import Cavities from "../components/Cavities";
 import Factors from "../components/Factors";
 import Hero from "../components/Hero";
 import Prevention from "../components/Prevention";
 import Reviews from "../components/Reviews";
-import Script from "next/script";
 export default function Home() {
   return (
     <main className="bg-light-grey">

@@ -1,7 +1,8 @@
 "use client";
+import Script from "next/script";
+
 import Image from "next/image";
 import logo from "../public/assets/logo-white.svg";
-import Script from "next/script";
 const Hero = () => {
   return (
     <>
