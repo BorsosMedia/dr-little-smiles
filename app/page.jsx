@@ -4,12 +4,15 @@ import Factors from "../components/Factors";
 import Hero from "../components/Hero";
 import Prevention from "../components/Prevention";
 import Reviews from "../components/Reviews";
-
+import Script from "next/script";
 export default function Home() {
   return (
     <main className="bg-light-grey">
       <Hero />
-      <div className="form-mobile w-full px-[10vw] lg:col-span-2 lg:col-start-2 lg:px-0">
+      <div
+        suppressHydrationWarning
+        className="form-mobile w-full px-[10vw] lg:col-span-2 lg:col-start-2 lg:px-0"
+      >
         <h6
           style={{
             color: "#333333",
@@ -51,7 +54,10 @@ export default function Home() {
             data-form-id="K6DO8k1YbVqtK4L2mPoH"
             title="Form 1"
           ></iframe>
-          <script src="https://link.msgsndr.com/js/form_embed.js"></script>
+          <Script
+            async
+            src="https://link.msgsndr.com/js/form_embed.js"
+          ></Script>
         </div>
       </div>
       <About />

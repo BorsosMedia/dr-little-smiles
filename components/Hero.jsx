@@ -1,7 +1,7 @@
 "use client";
 import Image from "next/image";
 import logo from "../public/assets/logo-white.svg";
-
+import Script from "next/script";
 const Hero = () => {
   return (
     <>
@@ -61,7 +61,10 @@ const Hero = () => {
                 data-form-id="K6DO8k1YbVqtK4L2mPoH"
                 title="Form 1"
               ></iframe>
-              <script src="https://link.msgsndr.com/js/form_embed.js"></script>
+              <Script
+                async
+                src="https://link.msgsndr.com/js/form_embed.js"
+              ></Script>
             </div>
           </div>
         </section>
