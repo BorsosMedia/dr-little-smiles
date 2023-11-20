@@ -207,3 +207,34 @@
     @apply h-6 w-auto transition-all ease-in-out hover:scale-125;
   }
 }
+
+.form-iframe .hl-app .form-builder--wrap {
+  padding: 0 !important;
+}
+
+.form-iframe
+  .hl-app
+  .hl_form-builder--main
+  .form-builder--wrap
+  .form-builder--item,
+.hl-app .menu-field-wrap {
+  margin: 0 !important;
+}
+
+.newsletter-form {
+  display: none;
+}
+.form-mobile {
+  background-color: #cee7ff;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+@media screen and (min-width: 1024px) {
+  .newsletter-form {
+    display: block;
+    margin-top: 5rem !important;
+  }
+  .form-mobile {
+    display: none;
+  }
+}
