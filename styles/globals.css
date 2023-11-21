@@ -195,7 +195,7 @@
   }
 
   .bg-prevention {
-    @apply default-x-padding h-auto w-full bg-prevention-mobile-bg bg-cover bg-right bg-no-repeat p-0 py-[10vh] text-center md:bg-prevention-bg md:text-left xl:py-0 xl:pl-16 xl:pr-[10vw];
+    @apply default-x-padding h-auto w-full bg-prevention-mobile-bg bg-cover bg-right bg-no-repeat p-0 py-[10vh] text-center md:bg-prevention-bg md:text-left xl:py-[4vh] xl:pl-16 xl:pr-[10vw];
   }
 
   .bg-footer {
