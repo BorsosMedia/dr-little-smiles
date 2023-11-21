@@ -225,7 +225,8 @@
   display: none;
 }
 
-.form-iframe {
+.form-iframe,
+.ep-iFrame {
   height: 99px !important;
 }
 .form-mobile {
@@ -236,12 +237,14 @@
 .headline {
   font-family: var(--font-montserrat);
 }
+
 @media screen and (min-width: 1024px) {
   .newsletter-form {
     display: block;
     margin-top: 5rem !important;
   }
-  .form-iframe {
+  .form-iframe,
+  .ep-iFrame {
     height: 100% !important;
   }
   .form-mobile {

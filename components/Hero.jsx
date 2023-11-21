@@ -63,7 +63,7 @@ const Hero = () => {
                 title="Form 1"
               ></iframe>
               <Script
-                async
+                defer
                 src="https://link.msgsndr.com/js/form_embed.js"
               ></Script>
             </div>
