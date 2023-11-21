@@ -76,6 +76,9 @@
   p {
     @apply text-base 2xl:text-xl;
   }
+  main {
+    @apply bg-light-grey;
+  }
 }
 
 @layer utilities {
@@ -95,7 +98,8 @@
   }
 
   .headline {
-    @apply bold text-3xl lg:text-6xl 2xl:text-7xl font-montserrat;
+    @apply bold text-3xl lg:text-6xl 2xl:text-7xl;
+    font-family: var(--font-montserrat);
   }
 
   .subheadline {
@@ -187,7 +191,7 @@
   }
 
   .bg-about {
-    @apply white w-full bg-about-mobile-bg bg-cover bg-right bg-no-repeat lg:bg-about-bg lg:bg-cover;
+    @apply white w-full bg-about-mobile-bg bg-cover bg-right bg-no-repeat lg:bg-about-bg lg:bg-cover lg:bg-center;
   }
 
   .bg-cavities {
@@ -206,6 +210,12 @@
   .icons {
     @apply h-6 w-auto transition-all ease-in-out hover:scale-125;
   }
+
+  /* NEWSLETTER */
+
+  .newsletter {
+    @apply bg-[#cee7ff] lg:bg-transparent py-8 lg:py-0 lg:mt-20;
+  }
 }
 
 .form-iframe .hl-app .form-builder--wrap {
@@ -221,38 +231,15 @@
   margin: 0 !important;
 }
 
-.newsletter-form {
-  display: none;
-}
-
 .form-iframe,
 .ep-iFrame {
   box-sizing: border-box;
   height: 99px !important;
 }
-.form-mobile {
-  background-color: #cee7ff;
-  padding-top: 2rem;
-  padding-bottom: 2rem;
-}
-.headline {
-  font-family: var(--font-montserrat);
-}
 
 @media screen and (min-width: 1024px) {
-  .newsletter-form {
-    display: block;
-    margin-top: 5rem !important;
-  }
   .form-iframe,
   .ep-iFrame {
     height: 100% !important;
-  }
-  .form-mobile {
-    display: none;
-  }
-
-  .bg-about {
-    background-position: center !important;
   }
 }

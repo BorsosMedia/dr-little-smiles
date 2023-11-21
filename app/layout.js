@@ -41,6 +41,7 @@ export default function RootLayout({ children }) {
       >
         {children}
         <Footer />
+        <script async src="https://link.msgsndr.com/js/form_embed.js" />
         <script async src="https://player.vimeo.com/api/player.js" />
       </body>
     </html>
