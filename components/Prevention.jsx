@@ -12,7 +12,9 @@ const Prevention = () => {
       />
       <section className="bg-prevention md:hidden xl:block">
         <div className="paragraphs-display h-full place-content-center">
-          <h2 className="subheadline">Prevention Over Treatment</h2>
+          <h2 className="subheadline text-center md:text-left">
+            Prevention Over Treatment
+          </h2>
           <p>
             Preventing tooth decay in children yields numerous advantages,
             including the avoidance of discomfort, stress, and expenses,

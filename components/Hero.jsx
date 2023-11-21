@@ -6,9 +6,9 @@ import logo from "../public/assets/logo-white.svg";
 const Hero = () => {
   return (
     <article className="bg-hero">
-      <section className="col-span-2 pl-[10vw] md:place-content-center md:py-[17.3611%] md:pl-[10vw]">
+      <section className="col-span-2 pl-[10vw] md:pl-[10vw] lg:place-content-center xl:py-[17.3611%]">
         <Image src={logo} alt="logo" className="h-24 w-24 lg:h-48 lg:w-48" />
-        <h1 className="headline font-montserrat md:hidden">
+        <h1 className="headline md:hidden">
           <span className="text-effect-mobile">
             Caring <span className="whitespace-nowrap">for the</span> Smiles
             that Matter Most

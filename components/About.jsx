@@ -1,6 +1,9 @@
+import { Suspense } from "react";
+
 import Image from "next/image";
 
 import SocialLinks from "./SocialLinks";
+import { Skeleton } from "./ui/skeleton";
 import nikDesktop from "../public/assets/nik-desktop.png";
 import nikMobile from "../public/assets/nik-mobile.png";
 
@@ -17,13 +20,19 @@ const About = () => {
           <div className="grid items-center gap-16 lg:col-start-3 lg:grid-cols-3">
             <div className="w-full px-[10vw] lg:col-span-2 lg:col-start-2 lg:px-0">
               <div className="relative pt-[56.25%]">
-                <iframe
-                  src="https://player.vimeo.com/video/885721170?h=2f9a793edf&amp;badge=0&amp;autopause=0&amp;quality_selector=1&amp;player_id=0&amp;app_id=58479"
-                  frameborder="0"
-                  allow="autoplay; fullscreen; picture-in-picture"
-                  title="Nik Intro"
-                  className="absolute left-0 top-0 h-full w-full rounded shadow-2xl drop-shadow-2xl"
-                ></iframe>
+                <Suspense
+                  fallback={
+                    <Skeleton className="absolute left-0 top-0 h-full w-full rounded" />
+                  }
+                >
+                  <iframe
+                    suppressHydrationWarning
+                    src="https://player.vimeo.com/video/885721170?h=2f9a793edf&amp;badge=0&amp;autopause=0&amp;quality_selector=1&amp;player_id=0&amp;app_id=58479"
+                    allow="autoplay; fullscreen; picture-in-picture"
+                    title="Nik Intro"
+                    className="absolute left-0 top-0 h-full w-full rounded shadow-2xl drop-shadow-2xl"
+                  />
+                </Suspense>
               </div>
             </div>
             <div className="lg:social-media-display col-span-2 col-start-2 my-8 hidden">
@@ -31,7 +40,7 @@ const About = () => {
               <SocialLinks />
             </div>
           </div>
-          <div className="flex flex-col gap-16 px-[10vw] lg:px-0 lg:pl-[10vw]">
+          <div className="flex flex-col gap-16 px-[10vw] pt-[5vh] lg:px-0 lg:pl-[10vw] lg:pt-0">
             <p>
               <span className="bold">Dr. Nikhil (Nik) Sharma</span> is a
               dedicated <span className="bold">Pediatric dentist</span> and a
