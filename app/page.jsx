@@ -37,7 +37,7 @@ export default function Home() {
             style={{
               width: "100%",
               maxWidth: "400px",
-              height: "100%",
+
               border: "none",
             }}
             className="form-iframe"
