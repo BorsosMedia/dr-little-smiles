@@ -35,6 +35,7 @@ export default function RootLayout({ children }) {
         className={cn(
           "min-h-screen bg-background font-sans antialiased",
           dmSans.variable,
+          montserrat.variable,
         )}
         suppressHydrationWarning
       >
