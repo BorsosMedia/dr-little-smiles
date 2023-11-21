@@ -227,6 +227,7 @@
 
 .form-iframe,
 .ep-iFrame {
+  box-sizing: border-box;
   height: 99px !important;
 }
 .form-mobile {
