@@ -251,4 +251,8 @@
   .form-mobile {
     display: none;
   }
+
+  .bg-about {
+    background-position: center !important;
+  }
 }
