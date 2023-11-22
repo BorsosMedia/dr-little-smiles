@@ -187,7 +187,7 @@
 
   /* BACKGROUND IMAGES */
   .bg-hero {
-    @apply grid h-0 grid-cols-4 bg-hero-mobile-bg bg-cover bg-no-repeat pb-[91.6030534351145%] md:bg-hero-bg md:pb-[52.0833%];
+    @apply grid grid-cols-4 bg-hero-mobile-bg bg-cover bg-center bg-no-repeat md:bg-hero-bg;
   }
 
   .bg-about {
@@ -237,9 +237,17 @@
   height: 99px !important;
 }
 
+#inline-K6DO8k1YbVqtK4L2mPoH-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
 @media screen and (min-width: 1024px) {
   .form-iframe,
   .ep-iFrame {
     height: 100% !important;
+  }
+  #inline-K6DO8k1YbVqtK4L2mPoH-wrapper {
+    justify-content: flex-start;
   }
 }
