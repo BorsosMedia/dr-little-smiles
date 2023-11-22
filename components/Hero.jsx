@@ -6,7 +6,7 @@ import logo from "../public/assets/logo-white.svg";
 const Hero = () => {
   return (
     <article className="bg-hero">
-      <section className="col-span-2 box-border place-content-center py-[45.80152671755725%] pl-[10vw] md:py-[26.04165%] md:pl-[10vw] lg:py-0">
+      <section className="col-span-2 box-border place-content-center pl-[10vw] md:py-[26.04165%] md:pl-[10vw] lg:py-0 xl:py-[17.3611%]">
         <Image src={logo} alt="logo" className="h-24 w-24 lg:h-48 lg:w-48" />
         <h1 className="headline md:hidden">
           <span className="text-effect-mobile">

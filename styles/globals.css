@@ -187,7 +187,7 @@
 
   /* BACKGROUND IMAGES */
   .bg-hero {
-    @apply grid grid-cols-4 bg-hero-mobile-bg bg-cover bg-center bg-no-repeat md:bg-hero-bg;
+    @apply grid h-0 grid-cols-4 bg-hero-mobile-bg bg-cover bg-no-repeat pb-[91.6030534351145%] md:h-auto md:bg-hero-bg md:bg-center md:pb-0;
   }
 
   .bg-about {
